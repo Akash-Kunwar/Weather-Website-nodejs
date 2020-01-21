@@ -1,0 +1,58 @@
+h1{
+	color: grey;
+	font-style:bold;
+	font-size: 50px;
+	margin-left:50px;
+	margin-top: 40px;  
+}
+.img1{
+
+  background:url('/image1.jpg'); 	
+  height:400px;
+  width:400px;
+  background-repeat:no-repeat;
+  background-size: cover;
+  background-position: center;  
+  
+}
+
+h2{
+	color: grey;
+	font-style:bold;
+	font-size:30px;
+	margin-left:50px;
+	margin-top:50px;  
+}
+.h2{
+	border-top:1px solid grey; 
+	color: grey;
+	font-style:bold;
+	font-size:30px;
+	margin-left:50px;
+	margin-top:50px;  
+	margin-right: 50px;
+	padding:10px; 
+}
+
+a{
+	color:blue; 
+	margin:5px;
+	text-align:center;  
+}
+a:hover{
+	color:black; 
+}
+.atext{
+	margin-left:50px;
+}
+form{
+	margin-left:50px;
+	margin-top:50px;
+	
+}
+p{
+	margin-left:50px;
+	color:grey;
+	font-size:20px;
+
+}

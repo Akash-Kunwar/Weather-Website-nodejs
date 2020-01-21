@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="/index.css">
+	<title>Weather App</title>
+</head>
+<body>
+	{{>header}}
+
+<h2>{{title}}</h2>
+
+<form>
+	<input type="text" id="place" placeholder="Enter Place">
+	<button type="submit">search</button>
+</form>
+	<div>
+		<p id="summary"></p>
+		<p id="temperature"></p>
+		<p id="rainy"></p>
+		<p id="location"></p>
+	</div>
+<h2 class="h2">Created by-{{name}}</h2>
+</body>
+<script type="text/javascript" src="/app.js"></script>
+</html>
