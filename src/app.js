@@ -6,6 +6,7 @@ const geocode=require('./geocode')
 
 //using path(Absolute path)
 const app =express()
+const port=process.env.PORT || 3000
 console.log(__filename)
 console.log(path.join(__dirname,'../public'))
 
@@ -96,7 +97,7 @@ app.get('*',function(req,res){
 //app.com/contact
 
 //setting up the ports
-app.listen(3000,function(){
+app.listen(port,function(){
 	console.log('Server is up and Running!')
 })
 

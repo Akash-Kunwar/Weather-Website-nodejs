@@ -10,7 +10,7 @@ WeatherForm.addEventListener('submit',function(e){
 
 
 	const place=Search.value
-	const url='http://localhost:3000/weather?address='+place
+	const url='/weather?address='+place
 	fetch(url).then(function(response){
 	response.json().then(function(data){
 		if(data.error){
