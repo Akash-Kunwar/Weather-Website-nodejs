@@ -27,8 +27,7 @@ WeatherForm.addEventListener('submit',function(e){
 			summary.textContent='Summary: '+data.products.forecast.summary+'\n'+'location: '+data.products.location
 			temperature.textContent='Temperature: '+data.products.forecast.temperature
 			rainy.textContent='Rain Percentage: '+data.products.forecast.Rainy
-			
-			}
+						}
 			else{
 				summary.textContent='unable to fech data ! please try with another search'
 				temperature.textContent=''
